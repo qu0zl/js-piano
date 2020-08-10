@@ -27,7 +27,7 @@ audio {
 .piano {
   padding: 5px;
   margin: 0 auto;
-  width: 550px;
+  width: 1100px;
 }
 
 .piano-container, .piano-javascript {
@@ -44,6 +44,14 @@ audio {
   word-spacing: 0;
   letter-spacing: 0;
   font-size: 0;
+}
+
+.key-label{
+  font-size: x-large;
+  color: rgba(0, 0, 0, 0.3);
+  position: relative;
+  top: 160px;
+  align-self: center;
 }
 
 .piano-pedal {
@@ -73,22 +81,22 @@ audio {
 }
 
 .piano-white {
-  width: 24px;
-  height: 100px;
+  width: 48px;
+  height: 200px;
   background-color: white;
   z-index: 1;
 }
 
 .piano-black {
   width: 0px;
-  height: 100px;
+  height: 200px;
   z-index: 2;
 }
 
 .piano-black-raised {
-  width: 16px;
-  height: 70px;
+  width: 32px;
+  height: 140px;
   position: relative;
-  left: -10px;
+  left: -20px;
   background-color: black;
 }
